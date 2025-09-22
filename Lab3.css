@@ -1,0 +1,77 @@
+.body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+    font-family: Impact;
+    margin: auto;
+    font-size: 30px;
+  float: center;
+  display: flex;
+    width: 70%;
+    height: 70%;
+  border: 2px solid black;
+
+}
+#nav {
+  background-color: crimson;
+  text-align: center;
+  padding: 10px;
+}
+#nav:hover {
+  background-color: aliceblue;
+}
+#nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+#nav a {
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+#nav a:hover {
+  background-color: darkred;
+  border-radius: 5px;
+}
+
+#name:focus {
+  width: 50%;
+}
+#Choose {
+background-color:aquamarine;
+
+  border: 2px solid black;
+
+}
+#rules {
+  float: right;
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  height: 50%;
+  border: 2px solid green;
+  padding: 100px;
+}
+#rules:hover {
+  background-color: bisque;
+}
+#header-footer{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; 
+    background-color:#003399;
+    color:white;
+    height: 100px;
+    padding: 5px;
+    margin:auto;
+    clear:both;
+}
